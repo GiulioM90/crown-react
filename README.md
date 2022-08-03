@@ -1,3 +1,14 @@
+# added SCSS
+
+npm i scss
+
+# added react router with 
+
+npm install react-router-dom@6
+
+# added firebase 
+npm install firebase 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
