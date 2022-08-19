@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './sign-up-form.styles.scss'
 import FormInput from '../form-input/form-input.component';
 import Button from '../button/button.component';
 import {
@@ -7,6 +6,8 @@ import {
     createUserDocumentFromAuth,
 } from '../../utils/firebase/firebase.utils';
 
+
+import './sign-up-form.styles.scss'
 
 const defaultFormFields = {
     displayName: '',
@@ -22,7 +23,6 @@ const SignUpForm = () => {
     const resetFormFields = () => {
         setFormFields(defaultFormFields);
     };
-
     const handleSubmit = async (event) => {
         event.preventDefault();
 
